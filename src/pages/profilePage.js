@@ -1,5 +1,5 @@
 import { ProfilePageIndex } from "../components/profilePageComponents";
-import { Wrapper } from "../styles/pageWrapper";
+import { Wrapper } from "../styles/pageWrapperStyle";
 
 export function ProfilePage() {
   return (

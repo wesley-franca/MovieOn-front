@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { NotLogedContainer } from "../commons/notLogedPageStyle";
+import { NotLogedContainer } from "../commons/notLogedPageComponent";
 import { BlueLink } from "../commons/blueLink";
 import { RegistrationForm } from "./registrationForm";
 
