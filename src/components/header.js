@@ -1,12 +1,16 @@
 import styled from "styled-components"
 import { BsGear } from 'react-icons/bs';
 import logo from "../assets/images/logo.png"
+import { useNavigate } from "react-router";
 
 export function Header() {
+  const navigate = useNavigate()
   return (
     <Container>
-      <img src={logo} alt="Logo" />
-      <NameTitle>MovieOn</NameTitle>
+      <img src={logo} alt="Logo" onClick={()=>{navigate("/filmes")}} />
+      <NameTitle onClick={()=>{navigate("/filmes")}}>
+        MovieOn
+      </NameTitle>
       <BsGear />
     </Container>
   )
