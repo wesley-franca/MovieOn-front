@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import logo from "../../assets/images/logo.png"
+
 
 export function NotLogedContainer({ children }) {
   return (
     <Container>
       <div>
-        <img src="./assets/images/logo2-removebg-preview.png" alt="Logo"></img>
+        <img src={logo} alt="Logo"></img>
         <NameTitle>MovieOn</NameTitle>
       </div>
 

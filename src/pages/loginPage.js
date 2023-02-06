@@ -1,5 +1,5 @@
 import { LoginPageIndex } from "../components/loginPageComponents";
-import { Wrapper } from "../styles/pageWrapper";
+import { Wrapper } from "../styles/pageWrapperStyle";
 
 export function LoginPage() {
   return (

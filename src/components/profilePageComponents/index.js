@@ -1,6 +1,9 @@
+import { LogedContainer } from "../commons/logedPageComponent";
 
 export function ProfilePageIndex() {
   return (
-  <>profile</>  
+    <LogedContainer>
+      profile
+    </LogedContainer>
   )
 }
