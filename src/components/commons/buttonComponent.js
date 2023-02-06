@@ -12,6 +12,7 @@ export function ButtonComponent({ isDisabled, children }) {
 const Button = styled.button`
   width:  300px;
   height: 45px;
+  gap: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
