@@ -1,9 +1,13 @@
+import { Title } from "../../styles/titleStyle";
 import { LogedContainer } from "../commons/logedPageComponent";
+import { ProfileForm } from "./profileForm";
 
 export function ProfilePageIndex() {
   return (
     <LogedContainer>
-      profile
+      <Title>Complete seu perfil</Title>
+      <ProfileForm />
     </LogedContainer>
   )
 }
+

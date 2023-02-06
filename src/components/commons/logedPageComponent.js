@@ -19,6 +19,4 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 70px 0;
-  border: solid 1px red;  //tirar
-  background-color: green; //tirar
 `;
