@@ -23,7 +23,7 @@ export function ProfileForm() {
     if (birthday.toString() !== "Invalid Date") {
       try {
         await PostEnrollment({ name, lastName, instagram, whatsapp, biography, birthday, token });
-        return navigate("/filme");
+        return navigate("/filmes");
       } catch (error) {
         console.error(`error ${error.response.status}`, error.response.data);
         alert(error.response.data.message);
