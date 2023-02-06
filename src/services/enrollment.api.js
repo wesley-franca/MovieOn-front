@@ -1,12 +1,23 @@
 import api from "./api";
 
-export async function PostEnrollment({
+export function PostEnrollment({
   name, lastName, instagram, whatsapp, biography, birthday, token
 }) {
   const body = { name, lastName, instagram, whatsapp, biography, birthday }
-  const result = await api.post("/enrollment", body, {
+  const promise = api.post("/enrollment", body, {
     headers: {
       Authorization: `Bearer ${token}`,
-    }});
-  return result;
+    }
+  });
+  return promise;
+}
+
+export function GetEnrollment(token) {
+  const config = {
+      headers: {
+          "Authorization": `Bearer ${token}`,
+      }
+  };
+  const promise = api.get("/enrollment", config );
+  return promise;
 }

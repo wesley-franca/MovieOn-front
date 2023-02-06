@@ -1,7 +1,7 @@
 import api from "./api";
 
-export async function SignUp(email, password) {
-  const result = await api.post("/users", {email, password});
-  return result;
+export function SignUp(email, password) {
+  const promise = api.post("/users", {email, password});
+  return promise;
 }
 

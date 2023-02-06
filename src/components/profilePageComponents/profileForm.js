@@ -11,7 +11,6 @@ export function ProfileForm() {
   const [isDisabled, setIsdisabled] = useState(false);
   const navigate = useNavigate();
 
-
   async function handleForm(e) {
     e.preventDefault();
     setIsdisabled(true);
@@ -45,7 +44,7 @@ export function ProfileForm() {
         disabled={isDisabled}
         required />
 
-<input
+      <input
         type="text"
         name="lastName"
         placeholder="Sobrenome"

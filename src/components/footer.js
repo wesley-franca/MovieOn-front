@@ -2,13 +2,15 @@ import styled from "styled-components"
 import { RiMovie2Line } from 'react-icons/ri';
 import { BsFillPeopleFill } from 'react-icons/bs';
 import { GiPopcorn } from 'react-icons/gi';
+import { useNavigate } from "react-router-dom";
 
 export function Footer() {
+  const navigate = useNavigate();
   return (
     <Container>
-      <RiMovie2Line />
-      <GiPopcorn />
-      <BsFillPeopleFill />
+      <RiMovie2Line onClick={()=>{navigate("/filmes")}}/>
+      <GiPopcorn onClick={()=>{navigate("/conexoes")}}/>
+      <BsFillPeopleFill onClick={()=>{navigate("/pessoas")}}/>
     </Container>
   )
 }
