@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { BsGear } from 'react-icons/bs';
-import logo from "../../assets/images/logo.png"
+import logo from "../assets/images/logo.png"
 
 export function Header() {
   return (
