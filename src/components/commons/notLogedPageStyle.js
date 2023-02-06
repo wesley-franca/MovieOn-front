@@ -13,12 +13,11 @@ export function NotLogedContainer({ children }) {
   )
 }
 
-
 const Container = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  padding: 80px 0;
+  padding: 70px 0;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
