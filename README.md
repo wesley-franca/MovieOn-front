@@ -4,12 +4,14 @@
 
 **This project is still been developed**
 
-It is **MovieOn** an application made to connect people with similar movie preferences.
+**MovieOn** is an application made to connect people with similar movie preferences.
 
 ## Tecnologies
 
   - React
   - styled-Components
+  - Material UI
+  - Axios
 
 ## Getting Started
 
