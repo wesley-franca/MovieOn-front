@@ -31,9 +31,10 @@ npm i
 
 - Creating the enviroment file
 
-Create an .env file using .env.example pattern 
+Create an .env file using .env.example pattern
 
-
+to run in dev using the backend repository use: REACT_APP_API_ADRESS=http://localhost:<back-endPORT>
+  
 - In the project directory, you can run:
 
 ```bash
